@@ -17,7 +17,7 @@ namespace Homework
             picture = Convert.ToInt32(Console.ReadLine());
             int rows = picture / picturesInARow;
             int remains = picture % picturesInARow;
-            Console.WriteLine($"Заполненных рядов:{rows}. Осталось картин:{remains}.");
+            Console.WriteLine($"Заполненных рядов:{rows}. Осталось:{remains}.");
 
         }
 
