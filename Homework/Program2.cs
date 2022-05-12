@@ -12,12 +12,12 @@ namespace Homework
         static void Main(string[] args)
         {
             int picture;
-            int row = 3;
+            int picturesInARow = 3;
             Console.WriteLine("Сколько у вас картин: ");
             picture = Convert.ToInt32(Console.ReadLine());
-            int turnOut = picture / row;
-            int enumeration = picture % row;
-            Console.WriteLine($"Заполненных рядов: {turnOut}. Осталось картин: {enumeration}.");
+            int rows = picture / picturesInARow;
+            int remains = picture % picturesInARow;
+            Console.WriteLine($"Заполненных рядов:{rows}. Осталось картин:{remains}.");
 
         }
 
