@@ -15,9 +15,9 @@ namespace Homework
             int picturesInARow = 3;
             Console.WriteLine("Сколько у вас картин: ");
             picture = Convert.ToInt32(Console.ReadLine());
-            int rows = picture / picturesInARow;
-            int remains = picture % picturesInARow;
-            Console.WriteLine($"Заполненных рядов:{rows}. Осталось:{remains}.");
+            int rowsWithPictures = picture / picturesInARow;
+            int remainsPictures = picture % picturesInARow;
+            Console.WriteLine($"Заполненных рядов:{rowsWithPictures}. Осталось картин:{remainsPictures}.");
 
         }
 
