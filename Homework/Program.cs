@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,15 +12,15 @@ namespace Homework
         static void Main(string[] args)
         {
             int coin;
-            int rubCoin;
-            int dollarCoin;
             float cristal = 6.5f;
             double redCristal = 2.5;
-            double blueCristal = 2.5;
             char deaths = '3';
             string life = "First dead";
-            bool Ifhedied = true;
-            bool Ifalive = false;
+            uint ucoin;
+            bool move = true;
+            short money = -100; 
+            ushort money = 100;
+            byte heals = 10;
         }
 
     }
