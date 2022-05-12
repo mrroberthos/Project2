@@ -11,16 +11,19 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            int coin;
-            float cristal = 6.5f;
-            double redCristal = 2.5;
-            char deaths = '3';
-            string life = "First dead";
-            uint ucoin;
-            bool move = true;
-            short money = -100; 
-            ushort money = 100;
-            byte heals = 10;
+            string name;
+            int age;
+            string zodiac;
+            string job;
+            Console.Write("Введите ваше имя:");
+            name = Console.ReadLine();
+            Console.Write("Введите ваш возраст:");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите ваш знак зодиака:");
+            zodiac = Console.ReadLine();
+            Console.Write("Введите ваше место работы:");
+            job = Console.ReadLine();
+            Console.WriteLine($"Вас зовут {name}. Ваш возраст {age}. Знак зодиака {zodiac}. Место работы {job}.");
         }
 
     }
