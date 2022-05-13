@@ -11,14 +11,14 @@ namespace Homework
         static void Main(string[] args)
         {
             int oldladies;
-            int time = 10;
-            int hours;
-            int minutes;
+            int receptionTime = 10;
+            int waitingHour = 60;
+            int waitingMinutes;
             Console.WriteLine("Введите количество старушек");
             oldladies = Convert.ToInt32(Console.ReadLine());
-            hours = (oldladies * time) / 60;
-            minutes = (oldladies * time) % 60;
-            Console.WriteLine($"Вы должны отстоять в очереди {hours} часа и {minutes} минут.");
+            waitingHour = (oldladies * receptionTime) / waitingHour;
+            waitingMinutes = (oldladies * receptionTime) % waitingHour;
+            Console.WriteLine($"Вы должны отстоять в очереди {waitingHour} часа и {waitingMinutes} минут.");
         }
     }
 }
