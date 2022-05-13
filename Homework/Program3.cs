@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,8 +11,8 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            string name = "test1";
-            string surname = "test2";
+            string name = "Mask";
+            string surname = "Ilon";
             string temp;
             temp = name;
             name = surname;
