@@ -11,13 +11,13 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            int picture;
-            int picturesInARow = 3;
+            int pictures;
+            int picturesInRow = 3;
             Console.WriteLine("Сколько у вас картин: ");
-            picture = Convert.ToInt32(Console.ReadLine());
-            int rowsWithPictures = picture / picturesInARow;
-            int remainsPictures = picture % picturesInARow;
-            Console.WriteLine($"Заполненных рядов:{rowsWithPictures}. Осталось картин:{remainsPictures}.");
+            pictures = Convert.ToInt32(Console.ReadLine());
+            int filledRows = pictures / picturesInRow;
+            int remainsPictures = pictures % picturesInRow;
+            Console.WriteLine($"Заполненных рядов:{filledRows}. Осталось картин:{remainsPictures}.");
 
         }
 
