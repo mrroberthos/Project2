@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,12 +12,16 @@ namespace Homework
         {
             int oldladies;
             int receptionTime = 10;
-            int waitingHour;
+            int waitingHours;
+            int waitingMinutes;  
             int minutesPerHour = 60;
             Console.WriteLine("Введите количество старушек");
             oldladies = Convert.ToInt32(Console.ReadLine());
-            waitingHour = (oldladies * receptionTime) / minutesPerHour;
-            Console.WriteLine($"Вы должны отстоять в очереди {waitingHour} часа и {waitingHour} минут.");
+            int totalTime = oldladies * receptionTime;
+            waitingHours = totalTime / minutesPerHour;
+            waitingMinutes = totalTime % minutesPerHour;
+            Console.WriteLine($"Вы должны отстоять в очереди {waitingHours} часа и {waitingMinutes} минут.");
+        }
     }
 }
 
