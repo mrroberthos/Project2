@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +18,6 @@ namespace Homework
             int filledRows = pictures / picturesInRow;
             int remainsPictures = pictures % picturesInRow;
             Console.WriteLine($"Заполненных рядов:{filledRows}. Осталось картин:{remainsPictures}.");
-
         }
-
     }
 }
