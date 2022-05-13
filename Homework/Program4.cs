@@ -17,7 +17,7 @@ namespace Homework
             Console.WriteLine($"Добро пожаловать в магазин кристаллов! Сегодня кристаллы по {cristallPrice} золота.");
             Console.WriteLine("Сколько у вас золота?");
             gold = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Сколько вам нужно кристаллов");
+            Console.WriteLine("Сколько вам нужно кристаллов?");
             cristallCount = Convert.ToInt32(Console.ReadLine());
             gold -= cristallCount * cristallPrice; 
             Console.WriteLine($"У вас в сумке - {cristallCount} кристаллов и {gold} золота.");
