@@ -22,8 +22,6 @@ namespace Практика_1
             {
                 Console.WriteLine(Message);
             }
-            
-            Console.ReadKey();
         }
     }
 }
