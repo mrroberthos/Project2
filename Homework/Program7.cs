@@ -11,16 +11,16 @@ namespace Практика_1
     {
         static void Main(string[] args)
         {
-            string Message;
+            string message;
             Console.WriteLine("Введите своё сообщение:");
-            Message = Console.ReadLine();
+            message = Console.ReadLine();
             int repeatsMessage;
             Console.WriteLine("Введите кол-во повторений сообщения:");
             repeatsMessage = Convert.ToInt32(Console.ReadLine());
 
             while (repeatsMessage-- > 0)
             {
-                Console.WriteLine(Message);
+                Console.WriteLine(message);
             }
         }
     }
