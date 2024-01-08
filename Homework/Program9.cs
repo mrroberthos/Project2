@@ -10,9 +10,12 @@ namespace Первые_уроки
     {
         static void Main(string[] args)
         {
-            for (int i = 5; i < 100; i += 7)
+            int maximumValue = 96;
+            int changingValue = 7;
+
+            for (int minimumValue = 5; minimumValue <= maximumValue; minimumValue += changingValue)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(minimumValue);
             }
         }
     }
