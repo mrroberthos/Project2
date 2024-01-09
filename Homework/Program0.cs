@@ -11,15 +11,15 @@ namespace Первые_уроки
         static void Main(string[] args)
         {
             int coin;
-            float cristal = 6.5f;
-            double redCristal = 2.5;
-            char dead = '3';
-            string heal = "First dead";
+            float cristal;
+            double redCristal;
+            char dead;
+            string heal;
             bool Ifhedied = true; 
             bool Ifalive = false;
-            byte cash = 100;
-            short memory = 32767;
-            long numberNPCs = 10000;
+            byte cash;
+            short memory;
+            long numberNPCs;
 
         }
     }
