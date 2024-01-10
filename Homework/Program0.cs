@@ -10,17 +10,16 @@ namespace Первые_уроки
     {
         static void Main(string[] args)
         {
-            int coin;
-            float cristal;
+            int coins;
+            float sapphires;
             double redCristal;
             char dead;
             string heal;
-            bool Ifhedied = true; 
-            bool Ifalive = false;
+            bool ifHeDied = true; 
+            bool ifAlive = false;
             byte cash;
             short memory;
-            long numberNPCs;
-
+            long countMoney;
         }
     }
 }
