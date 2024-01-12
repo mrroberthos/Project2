@@ -13,10 +13,10 @@ namespace Homework
         {
             string name = "Mask";
             string surname = "Ilon";
-            string temp;
-            temp = name;
+            string patronymic;
+            patronymic = name;
             name = surname;
-            surname = temp;
+            surname = patronymic;
             Console.WriteLine(name + " " + surname);
         }
     }
