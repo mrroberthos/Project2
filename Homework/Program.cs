@@ -25,6 +25,5 @@ namespace Homework
             job = Console.ReadLine();
             Console.WriteLine($"Вас зовут {name}. Ваш возраст {age}. Знак зодиака {zodiac}. Место работы {job}.");
         }
-
     }
 }
