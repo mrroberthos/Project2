@@ -10,11 +10,12 @@ namespace Первые_уроки
     {
         static void Main(string[] args)
         {
+            string exitCommand = "exit";
             string userInput;
             Console.WriteLine("Введите пароль или напишете exit");
             userInput = Console.ReadLine();
 
-            while (userInput != "exit")
+            while (userInput != exitComand)
             { 
                 Console.WriteLine("Попробуй ещё");
                 userInput = Console.ReadLine();
