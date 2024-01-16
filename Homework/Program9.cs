@@ -13,9 +13,9 @@ namespace Первые_уроки
             int maximumValue = 96;
             int changingValue = 7;
 
-            for (int minimumValue = 5; minimumValue <= maximumValue; minimumValue += changingValue)
+            for (int i = 5; i <= maximumValue; i += changingValue)
             {
-                Console.WriteLine(minimumValue);
+                Console.WriteLine(i);
             }
         }
     }
