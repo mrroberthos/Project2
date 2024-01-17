@@ -11,12 +11,11 @@ namespace Первые_уроки
         static void Main(string[] args)
         {
             int maximumValue = 96;
-            int changingValue = 7;
-            int initialValue = 5;
-
-            for (initialValue = 5; initialValue <= maximumValue; initialValue += changingValue)
+            int changingValue = 7
+                
+            for (int i = 5; i <= maximumValue; i += changingValue)
             {
-                Console.WriteLine(initialValue);
+                Console.WriteLine(i);
             }
         }
     }
