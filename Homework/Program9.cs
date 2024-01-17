@@ -12,8 +12,9 @@ namespace Первые_уроки
         {
             int maximumValue = 96;
             int changingValue = 7
+            int startValue = 5;
                 
-            for (int i = 5; i <= maximumValue; i += changingValue)
+            for (int i = startValue; i <= maximumValue; i += changingValue)
             {
                 Console.WriteLine(i);
             }
