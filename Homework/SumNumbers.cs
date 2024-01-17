@@ -16,8 +16,8 @@ namespace Первые_уроки
             int firstMultipleNumber = 3;
             int secondMultipleNumber = 5;
             int sum = 0;
+            Random random = new Random();
 
-            Random rand = new Random();
             number = rand.Next(randomMinimumNumber, randomMaximumNumber);
             Console.WriteLine($"Рандомное число: {number}") ;
 
@@ -26,10 +26,12 @@ namespace Первые_уроки
                 if (i % firstMultipleNumber == 0 || i % secondMultipleNumber == 0)
                 {
                     Console.WriteLine(i);
+                    
                     sum += i;
                 }
             }
-                Console.WriteLine($"Сумма всех положительных чисел, которые меньше {number} (включая это число) и числа кратные {firstMultipleNumber} и {secondMultipleNumber}" +
+                
+            Console.WriteLine($"Сумма всех положительных чисел, которые меньше {number} (включая это число) и числа кратные {firstMultipleNumber} и {secondMultipleNumber}" +
                     $" равна: {sum}") ;
         }
     }
