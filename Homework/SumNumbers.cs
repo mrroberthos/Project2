@@ -18,7 +18,7 @@ namespace Первые_уроки
             int sum = 0;
             Random random = new Random();
 
-            number = rand.Next(randomMinimumNumber, randomMaximumNumber);
+            number = random.Next(randomMinimumNumber, randomMaximumNumber);
             Console.WriteLine($"Рандомное число: {number}") ;
 
             for (int i = 0; i <= number;  i++)
